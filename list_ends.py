@@ -22,11 +22,9 @@ listends(a)
 
 import random
 rrand=[random.randrange(1,9,1)for i in range(7)]
-print (rrand)
-rrand=[i for i in rrand]
+# print (rrand)
+# rrand=[i for i in rrand]
 def make_alist(object):
-    list=[]
-    
     return rrand[0],rrand[-1]
 make_alist(rrand)
 
